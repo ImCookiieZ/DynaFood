@@ -1,5 +1,5 @@
 {
-  "main": "lib/server.js",
+  "main": "server.js",
   "type": "commonjs",
   "name": "apidynafood",
   "version": "1.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npx tsc && nodemon -e js,mjs -r dotenv/config",
     "test": "tests run",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
