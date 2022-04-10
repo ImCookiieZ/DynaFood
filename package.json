@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "description": "EIP PROJECT EPITECH",
   "scripts": {
-    "start": "npx tsc && nodemon -e js,mjs -r dotenv/config",
+    "start": "node lib/server.js",
     "test": "tests run",
-    "build": "npx tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
